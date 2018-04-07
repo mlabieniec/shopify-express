@@ -11,6 +11,7 @@ const ShopifyConfigTypes = {
   afterAuth: PropTypes.func.isRequired,
   shopStore: PropTypes.object,
   accessMode: PropTypes.oneOf(['offline', 'online']),
+  basePath: PropTypes.string
 };
 
 const defaults = {
