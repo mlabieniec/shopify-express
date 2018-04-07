@@ -10,8 +10,7 @@ const ShopifyConfigTypes = {
   scope: PropTypes.arrayOf(PropTypes.string).isRequired,
   afterAuth: PropTypes.func.isRequired,
   shopStore: PropTypes.object,
-  accessMode: PropTypes.oneOf(['offline', 'online']),
-  basePath: PropTypes.string
+  accessMode: PropTypes.oneOf(['offline', 'online'])
 };
 
 const defaults = {
