@@ -12,7 +12,7 @@ module.exports = function withShop({ authBaseUrl } = {}) {
       return;
     }
 
-    response.redirect('/install');
+    response.redirect(`${baseUrl}/install`);
     return;
   };
 };
